@@ -1,0 +1,268 @@
+body {margin: 0;padding: 0;font-family: monospace}
+
+.clearfix {clear: both}
+/*Start NavBar*/
+.navbar {width: 100%;height: 50px;background: #360836}
+
+.navbar ul {list-style: none;text-align: center;line-height: 50px;margin: 0}
+
+.navbar ul li {display: inline-block}
+
+.navbar ul li a {color: #FF0048;text-decoration: none;margin-left: 20px;font-size: 20px}
+
+.navbar ul li a.active {color:#FFF}
+
+/*End NavBar*/
+/*Start Carsoul*/
+.web {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/cover.png");
+    background-size: cover;
+    text-align: center;
+    position: relative
+}
+.web .folk {padding-top: 70px;margin-bottom: 70px}
+
+.web .folk h1 {margin: 0;padding: 0;font-size: 50px;color: #FFF;text-transform: uppercase}
+
+.web .folk p {letter-spacing: 10px;font-size: 30px;color: #FFF}
+
+.web .dream p {color: #FFF;font-size: 30px}
+
+.web .work {
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 39%;
+    background-color: #FF0048;
+    padding: 15px;
+    width: 250px;
+    font-size: 30px
+}
+.web .work:after {
+    content: "";
+    border-top: 30px solid #FF0048;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 79px;
+    left: 0
+}
+/*End Carsoul*/
+
+/*Start Photos*/
+.photo {width: 100%}
+
+.photo .img {width: 25%;height: 252px;float: left;background-image: url(../images/image_1.jpg)}
+
+.photo .img .over {width: 100%;height: 100%;background: rgba(0,0,0,0.5);opacity: 0}
+
+.photo .img:hover .over{opacity: 1}
+
+.photo .i-1 {background-image: url(../images/image_2.jpg)}
+
+.photo .i-2 {background-image: url(../images/image_3.jpg)}
+
+.photo .i-3 {background-image: url(../images/image_4.jpg)}
+
+.photo .i-4 {background-image: url(../images/image_5.jpg)}
+
+.photo .i-5 {background-image: url(../images/image_6.jpg)}
+
+.photo .i-6 {background-image: url(../images/image_7.jpg)}
+
+.photo .i-7 {background-image: url(../images/image_8.jpg)}
+
+.photo .i-8 {background-image: url(../images/image_9.jpg)}
+
+.photo .i-9 {background-image: url(../images/image_10.jpg)}
+
+.photo .i-10 {background-image: url(../images/image_11.jpg)}
+
+.photo .i-11 {background-image: url(../images/image_12.jpg)}
+
+/*End Photos*/
+
+/*Start Meet The Folk*/
+.meet {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-bottom: 20px
+}
+.meet .headmeet {
+    position: absolute;
+    top: 0;
+    background-color: #FF0048;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    line-height: 50px
+}
+.meet .headmeet:after {
+    content: "";
+    border-top: 30px solid #FF0048;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 72px;
+    left: -87px
+}
+.meet h2 {
+    margin: 0;
+    padding-top: 8%;
+    padding-bottom: 3%;
+    color: #FF0048;
+    font-size: 30px;
+    font-weight: bold;
+}
+.meet .meet_image {display: inline-block;margin-top: 50px;padding: 20px}
+
+.meet .meet_image h3 {color: #FF0048;font-size: 30px;letter-spacing: 3px;margin-bottom: 0}
+
+.meet .meet_image p {font-size: 20px;font-weight: bold;margin: 0}
+
+.meet button {
+    width: 200px;
+    height: 40px;
+    background-color: #111;
+    color: #FFF;
+    border: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*End Meet The Folk*/
+
+/*Start End home*/
+.end {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/Cover_2.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 7%;
+    overflow: hidden
+}
+.end .content {width: 40%;float: left;color: #FFF;font-size: 15px;padding: 3%}
+
+.end .content h2 {margin: 0;padding: 0}
+
+.end button {
+    width: 200px;
+    height: 40px;
+    background-color: #FFF;
+    color: #000;
+    border: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.end .bolt {text-align: center;margin-top: 20px}
+
+.end .bolt span {width: 10px;height: 10px;display: inline-block;background-color: #FFF}
+
+.end .bolt span.active,
+.end .bolt span:hover{background-color: #FF0048}
+
+/*End End home*/
+/*Start Footer*/
+.footer {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #DEDDDD;
+    text-align: center;
+    font-size: 30px
+}
+/*End Footer*/
+
+/**********************************Contact.html***************************************/
+/*Start Start*/
+.contact {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/alps-mountain.jpeg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 7%
+}
+.contact h1 {
+    margin-top: 0;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #FFF;
+}
+.contact p {font-size: 30px;color: #FFF}
+
+.contact .form {width: 500px;height: 500px;margin: auto}
+
+.contact .form h2 {color: #FF0048;font-size: 40px;font-style: italic;letter-spacing: 2px;font-weight: bold}
+
+.contact .form input[type="text"] , textarea {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: #FF0048;
+    line-height: 20px;
+    color: #FFF;
+    font-size: 20px;
+    padding-left: 10px
+}
+.contact .form textarea {height: 200px}
+
+.contact .form input[type="submit"] {
+    float: right;
+    border: 0;
+    background-color: #FFF;
+    cursor: pointer;
+    width: 60px;
+    height: 40px
+}
+/*End Contact*/
+
+/*Start Become*/
+.become {width: 100%;height: auto;background-color: #F5F5F5;text-align: center;padding-top: 5%}
+
+.become h2 {margin: 0;font-size: 30px;color: #FF0048}
+
+.become p {font-size: 20px}
+
+.become .links {margin-bottom: 0}
+/*End Become*/
+
+/**********************************book online.html***************************************/
+.contact .cover {
+    background-color: #FFF;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    margin-top: 8%;
+    padding-top: 5%
+}
+.contact .cover .left {float: left;width: 45%;margin-left: 5%;height: 250px}
+
+.contact .cover .left img {width: 100%}
+
+.contact .cover .right {
+    width: 45%;
+    height: 247px;
+    float: right;
+    padding-top: 3%;
+    margin-right: 5%;
+    background-color: #EE7;
+}
+.contact .cover .right button {
+    background-color: #000;
+    color: #FFF;
+    border: 0;
+    padding: 10px;
+    cursor: pointer
+}
