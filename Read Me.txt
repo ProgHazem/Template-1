@@ -7,6 +7,6 @@ Template1 using HTML & CSS
 
 ==> use CSS.
 
-                                                                thanks for reading
-                                                                      Hazem
+                                                thanks for reading
+                                                      Hazem
 *******************************************************************
