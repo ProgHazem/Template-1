@@ -1,12 +1,12 @@
 ******************************************************************
 ========== Simple Site for Web Folk ==============
 
-Template1 using HTML & CSS
+Template 1
 
 ==> use HTML.
 
 ==> use CSS.
 
-                                                                thanks for reading
-                                                                      Hazem
+                                               thanks for reading
+                                                      Hazem
 *******************************************************************
